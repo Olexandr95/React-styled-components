@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-styled-components/static/css/main.e32b92f4.css",
+    "main.js": "/React-styled-components/static/js/main.86a26ddb.js",
+    "index.html": "/React-styled-components/index.html",
+    "main.e32b92f4.css.map": "/React-styled-components/static/css/main.e32b92f4.css.map",
+    "main.86a26ddb.js.map": "/React-styled-components/static/js/main.86a26ddb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e32b92f4.css",
+    "static/js/main.86a26ddb.js"
+  ]
+}
