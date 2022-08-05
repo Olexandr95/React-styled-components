@@ -1,10 +1,17 @@
+
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
 
 
-export const PrimaryText = styled.p``;
+export const PrimaryText = styled.p`
+color: grey;
+text-align: center;
+margin-top: 20px;
+`;
+
 export const SecondaryText = styled.p`
-color: grey;`;
+color: grey;
+text-align: start;`;
 
 export const BodyDiv = styled.div`
 background-color:  rgb(10, 30, 40);
@@ -18,8 +25,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 height: 150px;;
-`
-;
+`;
 
 export const IconPosition = styled.div`
 display: flex;
@@ -57,7 +63,16 @@ margin: 0 auto;`
 export const Input = styled.input`
 width:100%;
 height: 30px;
-margin-bottom: 20px;`;
+margin-bottom: 20px;
+background-color: transparent;
+border: 1px solid grey;
+border-radius: 3px;
+color: grey;
+font-size: 16px;
+&::placeholder{
+   padding: 5px;
+}
+`;
 
 
 export const CheckBoxDiv = styled.div`
@@ -83,11 +98,18 @@ color: black;
 font-size: 20px;
 font-weight: 500;
 text-transform: uppercase;
-font-family: Roboto;`;
+font-family: Roboto;
+margin-bottom: 20px;
+&:hover {
+    color: #fff;
+}
+`;
 
 export const DivSpaceBetween = styled.div`
 display: flex;
-justify-content: space-between;`;
+justify-content: space-between;
+column-gap: 20px;
+width: 100%;`;
 
 
 export const StyledLink = styled(Link)`
@@ -96,4 +118,9 @@ text-decoration: none;
 &:hover {
     color: #fff;
 }
+`;
+
+export const DivFlexEnd = styled.div`
+display: flex;
+justify-content: flex-end;
 `;
